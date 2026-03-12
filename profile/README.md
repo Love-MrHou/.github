@@ -32,5 +32,4 @@ graph TD
 | Repo | Description |
 |------|-------------|
 | [IM25_HDRP](https://github.com/Love-MrHou/IM25_HDRP) | Main VR training system — Unity HDRP rendering pipeline, core interaction logic |
-| [IM25_final](https://github.com/Love-MrHou/IM25_final) | Final release build — optimized scenes and packaged for deployment |
 
