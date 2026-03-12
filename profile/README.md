@@ -5,7 +5,9 @@ Built a high-fidelity VR vocational training system with Unity HDRP — bridging
 ![Unity](https://img.shields.io/badge/Unity-HDRP-black?logo=unity)
 ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
 ![VR](https://img.shields.io/badge/Platform-VR-blueviolet)
+advised by [Assoc. Prof. Chia-Li Hou](https://im.ndhu.edu.tw/p/405-1050-245626,c22601.php?Lang=zh-tw)
 
+Awarded 2nd place🏆, Graduation Project — NDHU Information Management, Class of IM25
 ## System Architecture
 
 ```mermaid
@@ -25,7 +27,7 @@ graph TD
 
 - **Problem**: Physical training limits practice frequency; web-based training fails at conversational and spatial tasks — VR solves both
 - **Technical approach**: Unity HDRP rendering pipeline delivers photorealistic training environments with real-time interaction logic in C#
-- **Outcome**: Graduation project, NDHU Information Management, Class of IM25 — advised by [Assoc. Prof. Chia-Li Hou](https://im.ndhu.edu.tw/p/405-1050-245626,c22601.php?Lang=zh-tw)
+- **Outcome**: Awarded 2nd place🏆, Graduation Project — NDHU Information Management, Class of IM25
 
 ## Repositories
 
