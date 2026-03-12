@@ -1,37 +1,37 @@
-# NDHU IM25 Graduation Project
+# 國立東華大學 資管 IM25 畢業專題
 
-Built a high-fidelity VR vocational training system with Unity HDRP — bridging the gap where physical training lacks repeatability and web-based training can't handle real conversational scenarios.
+以 Unity HDRP 建構高擬真度的 VR 職業訓練系統 — 彌補實體訓練無法重複操作、網頁訓練無法處理真實對話情境的缺口。
 
 ![Unity](https://img.shields.io/badge/Unity-HDRP-black?logo=unity)
 ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
-![VR](https://img.shields.io/badge/Platform-VR-blueviolet)
+![VR](https://img.shields.io/badge/平台-VR-blueviolet)
 advised by [Assoc. Prof. Chia-Li Hou](https://im.ndhu.edu.tw/p/405-1050-245626,c22601.php?Lang=zh-tw)
 
-Awarded 2nd place🏆, Graduation Project — NDHU Information Management, Class of IM25
-## System Architecture
+榮獲第二名，畢業專題 — 國立東華大學 資訊管理學系 IM25
+
+## 專題亮點
+
+- **問題**: 實體訓練難以反覆練習；網頁訓練無法應對對話與空間操作任務 — VR 同時解決兩者
+- **技術方案**: Unity HDRP 渲染管線打造高擬真訓練場景，以 C# 實作即時互動邏輯
+- **成果**: 榮獲第二名，畢業專題 — 國立東華大學 資訊管理學系 IM25
+
+## 程式庫
+
+| Repo | 說明 |
+|------|------|
+| [IM25_HDRP](https://github.com/Love-MrHou/IM25_HDRP) | 主系統 — Unity HDRP 渲染管線，核心互動邏輯 |
+
+## 系統架構
 
 ```mermaid
 graph TD
-    A[User / Trainee] --> B[VR Headset]
-    B --> C[Unity Scene Manager]
-    C --> D[Training Scenario Loader]
-    D --> E1[Scenario: Customer Service]
-    D --> E2[Scenario: Emergency Response]
-    D --> E3[Scenario: Equipment Operation]
-    E1 & E2 & E3 --> F[Interaction & Response Engine]
-    F --> G[Feedback & Scoring System]
-    G --> H[Performance Report]
+    A[使用者 / 學員] --> B[VR 頭盔]
+    B --> C[Unity 場景管理器]
+    C --> D[訓練情境載入器]
+    D --> E1[情境：客戶服務]
+    D --> E2[情境：緊急應變]
+    D --> E3[情境：設備操作]
+    E1 & E2 & E3 --> F[互動與回應引擎]
+    F --> G[回饋與評分系統]
+    G --> H[學習成效報告]
 ```
-
-## Highlights
-
-- **Problem**: Physical training limits practice frequency; web-based training fails at conversational and spatial tasks — VR solves both
-- **Technical approach**: Unity HDRP rendering pipeline delivers photorealistic training environments with real-time interaction logic in C#
-- **Outcome**: Awarded 2nd place🏆, Graduation Project — NDHU Information Management, Class of IM25
-
-## Repositories
-
-| Repo | Description |
-|------|-------------|
-| [IM25_HDRP](https://github.com/Love-MrHou/IM25_HDRP) | Main VR training system — Unity HDRP rendering pipeline, core interaction logic |
-
