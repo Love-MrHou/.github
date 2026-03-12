@@ -5,7 +5,6 @@ Built a high-fidelity VR vocational training system with Unity HDRP — bridging
 ![Unity](https://img.shields.io/badge/Unity-HDRP-black?logo=unity)
 ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
 ![VR](https://img.shields.io/badge/Platform-VR-blueviolet)
-![Status](https://img.shields.io/badge/Status-Graduation%20Project%202025-blue)
 
 ## System Architecture
 
@@ -35,4 +34,3 @@ graph TD
 | [IM25_HDRP](https://github.com/Love-MrHou/IM25_HDRP) | Main VR training system — Unity HDRP rendering pipeline, core interaction logic |
 | [IM25_final](https://github.com/Love-MrHou/IM25_final) | Final release build — optimized scenes and packaged for deployment |
 
-![Status](https://img.shields.io/badge/Status-Graduation%20Project%202025-blue)
