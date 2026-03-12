@@ -26,7 +26,7 @@ graph TD
 
 - **Problem**: Physical training limits practice frequency; web-based training fails at conversational and spatial tasks — VR solves both
 - **Technical approach**: Unity HDRP rendering pipeline delivers photorealistic training environments with real-time interaction logic in C#
-- **Outcome**: Graduation project, NDHU Information Management, Class of 2025
+- **Outcome**: Graduation project, NDHU Information Management, Class of 2025 — advised by [Assoc. Prof. Chia-Li Hou](https://im.ndhu.edu.tw/p/405-1050-245626,c22601.php?Lang=zh-tw)
 
 ## Repositories
 
